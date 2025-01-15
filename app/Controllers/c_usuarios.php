@@ -206,5 +206,24 @@ class c_usuarios extends Controller
         
     }
     }
+    public function eliminar_cuenta()
+{
+    $correo = session()->get('usuario')['correo'];
+
+    if (!$correo) {
+        return redirect()->to('/registro');
+    }
+
+    // Instanciar el modelo
+    $modelo = new m_usuarios();
+
+    // Eliminar el usuario de la base de datos usando el correo
+    $modelo->where('correo', $correo)->delete();
+
+    session()->remove('usuario');
+
+    return redirect()->to('/');
+}
+
 
 }
