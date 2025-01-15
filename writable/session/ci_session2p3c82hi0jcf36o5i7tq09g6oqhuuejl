@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1736905597;_ci_previous_url|s:32:"http://localhost:8080/index.php/";id|N;nombre|s:7:"Marcelo";correo|s:19:"marcelo@hotmail.com";rol|s:1:"1";isLoggedIn|b:1;usuario|a:5:{s:6:"nombre";s:7:"Marcelo";s:6:"correo";s:19:"marcelo@hotmail.com";s:11:"contraseña";s:4:"1234";s:11:"id_usuarios";s:1:"1";s:3:"rol";s:1:"1";}

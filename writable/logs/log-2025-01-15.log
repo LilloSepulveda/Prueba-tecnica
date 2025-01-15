@@ -1,0 +1,35 @@
+CRITICAL - 2025-01-15 01:36:26 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: validar_ingreso]
+in APPPATH\Controllers\c_usuarios.php on line 55.
+ 1 APPPATH\Controllers\c_usuarios.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->validar_ingreso()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-15 01:37:33 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: validar_ingreso]
+in APPPATH\Controllers\c_usuarios.php on line 55.
+ 1 APPPATH\Controllers\c_usuarios.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->validar_ingreso()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-15 01:45:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tabla.php"
+[Method: GET, Route: tabla]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabla.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tabla', [], true)
+ 3 APPPATH\Controllers\c_usuarios.php(82): view('tabla', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')

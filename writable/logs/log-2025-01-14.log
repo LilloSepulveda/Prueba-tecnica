@@ -1,0 +1,1400 @@
+CRITICAL - 2025-01-14 00:15:50 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\c_usuarios.php on line 2.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\C_usuarios.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\C_usuarios')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\C_usuarios')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\C_usuarios', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 00:16:35 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\c_usuarios.php on line 2.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\C_usuarios.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\C_usuarios')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\C_usuarios')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\C_usuarios', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 00:18:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "inicio.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\c_usuarios.php(10): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 00:18:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "inicio.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\c_usuarios.php(10): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 00:20:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "inicio.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\c_usuarios.php(10): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 00:22:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "inicio.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\c_usuarios.php(10): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 00:25:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "inicio.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\c_usuarios.php(11): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 00:25:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "inicio.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\c_usuarios.php(11): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 00:25:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "inicio.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\c_usuarios.php(11): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 00:29:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "inicio.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\c_usuarios.php(11): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 03:22:18 --> Error: Class "App\Models\M_modelos" not found
+[Method: POST, Route: guardar_usuario]
+in APPPATH\Controllers\c_usuarios.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->guardar_usuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 03:24:30 --> Error: Class "App\Models\M_modelos" not found
+[Method: POST, Route: guardar_usuario]
+in APPPATH\Controllers\c_usuarios.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->guardar_usuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 03:30:54 --> Error: Class "App\Models\M_modelos" not found
+[Method: POST, Route: guardar_usuario]
+in APPPATH\Controllers\c_usuarios.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->guardar_usuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 03:33:45 --> Error: Class "App\Models\M_modelos" not found
+[Method: POST, Route: guardar_usuario]
+in APPPATH\Controllers\c_usuarios.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->guardar_usuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 03:35:51 --> Error: Class "App\Models\M_modelos" not found
+[Method: POST, Route: guardar_usuario]
+in APPPATH\Controllers\c_usuarios.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->guardar_usuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 03:39:15 --> Error: Class "App\Controllers\m_usuarios" not found
+[Method: POST, Route: guardar_usuario]
+in APPPATH\Controllers\c_usuarios.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->guardar_usuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 03:40:57 --> Error: Class "App\Controllers\m_usuarios" not found
+[Method: POST, Route: guardar_usuario]
+in APPPATH\Controllers\c_usuarios.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_usuarios->guardar_usuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+ERROR - 2025-01-14 03:56:06 --> mysqli_sql_exception: Duplicate entry 'marcelo@hotmail.com' for key 'correo_unique' in C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Models\m_usuarios.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Controllers\c_usuarios.php(43): App\Models\m_usuarios->registrarUsuario(Array)
+#9 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+#10 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+#11 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\rewrite.php(44): require_once('C:\\Users\\mlill\\...')
+#16 {main}
+CRITICAL - 2025-01-14 03:56:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'marcelo@hotmail.com' for key 'correo_unique'
+[Method: POST, Route: guardar_usuario]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (:nombre:, :correo:, :contraseña:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\m_usuarios.php(16): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\c_usuarios.php(43): App\Models\m_usuarios->registrarUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 03:56:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'marcelo@hotmail.com' for key 'correo_unique'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Marcelo\', \'marcelo@hotmail.com\', \'1234\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Marcelo\', \'marcelo@hotmail.com\', \'1234\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (:nombre:, :correo:, :contraseña:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\m_usuarios.php(16): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\c_usuarios.php(43): App\Models\m_usuarios->registrarUsuario([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 03:56:06 --> [Caused by] mysqli_sql_exception: Duplicate entry 'marcelo@hotmail.com' for key 'correo_unique'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Marcelo\', \'marcelo@hotmail.com\', \'1234\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Marcelo\', \'marcelo@hotmail.com\', \'1234\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Marcelo\', \'marcelo@hotmail.com\', \'1234\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (:nombre:, :correo:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\m_usuarios.php(16): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\c_usuarios.php(43): App\Models\m_usuarios->registrarUsuario([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+ERROR - 2025-01-14 04:01:17 --> mysqli_sql_exception: Duplicate entry 'alvaro@hotmail.com' for key 'correo_unique' in C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Controllers\c_usuarios.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+#9 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+#10 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\rewrite.php(44): require_once('C:\\Users\\mlill\\...')
+#15 {main}
+CRITICAL - 2025-01-14 04:01:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'alvaro@hotmail.com' for key 'correo_unique'
+[Method: POST, Route: guardar_usuario]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (:nombre:, :correo:, :contraseña:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\c_usuarios.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 04:01:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'alvaro@hotmail.com' for key 'correo_unique'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Alvaro\', \'alvaro@hotmail.com\', \'1234\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Alvaro\', \'alvaro@hotmail.com\', \'1234\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (:nombre:, :correo:, :contraseña:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\c_usuarios.php(46): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 04:01:17 --> [Caused by] mysqli_sql_exception: Duplicate entry 'alvaro@hotmail.com' for key 'correo_unique'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Alvaro\', \'alvaro@hotmail.com\', \'1234\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Alvaro\', \'alvaro@hotmail.com\', \'1234\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Alvaro\', \'alvaro@hotmail.com\', \'1234\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (:nombre:, :correo:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_usuarios.php(46): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+ERROR - 2025-01-14 04:06:50 --> mysqli_sql_exception: Duplicate entry 'veronica@hotmail.com' for key 'correo_unique' in C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Controllers\c_usuarios.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+#9 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+#10 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\rewrite.php(44): require_once('C:\\Users\\mlill\\...')
+#15 {main}
+CRITICAL - 2025-01-14 04:06:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'veronica@hotmail.com' for key 'correo_unique'
+[Method: POST, Route: guardar_usuario]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (:nombre:, :correo:, :contraseña:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\c_usuarios.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 04:06:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'veronica@hotmail.com' for key 'correo_unique'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Veronica\', \'veronica@hotmail.com\', \'1234\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Veronica\', \'veronica@hotmail.com\', \'1234\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (:nombre:, :correo:, :contraseña:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\c_usuarios.php(46): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 04:06:50 --> [Caused by] mysqli_sql_exception: Duplicate entry 'veronica@hotmail.com' for key 'correo_unique'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Veronica\', \'veronica@hotmail.com\', \'1234\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Veronica\', \'veronica@hotmail.com\', \'1234\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (\'Veronica\', \'veronica@hotmail.com\', \'1234\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `correo`, `contraseña`) VALUES (:nombre:, :correo:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_usuarios.php(46): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+ERROR - 2025-01-14 14:24:27 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_usuario...', 3306, '', 0)
+#1 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Controllers\c_usuarios.php(36): CodeIgniter\BaseModel->first()
+#7 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+#8 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+#9 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\rewrite.php(44): require_once('C:\\Users\\mlill\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Controllers\c_usuarios.php(36): CodeIgniter\BaseModel->first()
+#6 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+#7 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+#8 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\rewrite.php(44): require_once('C:\\Users\\mlill\\...')
+#13 {main}
+CRITICAL - 2025-01-14 14:24:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: POST, Route: guardar_usuario]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `correo` = :correo:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\c_usuarios.php(36): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->guardar_usuario()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:36:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 12.
+ 1 APPPATH\Views\v_usuarios\perfil.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:36:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 12.
+ 1 APPPATH\Views\v_usuarios\perfil.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:36:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 12.
+ 1 APPPATH\Views\v_usuarios\perfil.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:40:05 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 27.
+ 1 APPPATH\Views\v_usuarios\perfil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:40:12 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 27.
+ 1 APPPATH\Views\v_usuarios\perfil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:43:43 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 16.
+ 1 APPPATH\Views\v_usuarios\perfil.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:46:36 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 16.
+ 1 APPPATH\Views\v_usuarios\perfil.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:46:36 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 16.
+ 1 APPPATH\Views\v_usuarios\perfil.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:50:34 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 16.
+ 1 APPPATH\Views\v_usuarios\perfil.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:54:46 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 16.
+ 1 APPPATH\Views\v_usuarios\perfil.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:54:47 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 16.
+ 1 APPPATH\Views\v_usuarios\perfil.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:54:51 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 16.
+ 1 APPPATH\Views\v_usuarios\perfil.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 15:57:23 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: perfil]
+in APPPATH\Views\v_usuarios\perfil.php on line 16.
+ 1 APPPATH\Views\v_usuarios\perfil.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(22): view('v_usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 16:01:55 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: actualizar_perfil]
+in APPPATH\Controllers\c_usuarios.php on line 102.
+ 1 APPPATH\Controllers\c_usuarios.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->actualizar_perfil()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 16:06:38 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: actualizar_perfil]
+in APPPATH\Controllers\c_usuarios.php on line 102.
+ 1 APPPATH\Controllers\c_usuarios.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->actualizar_perfil()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 16:36:25 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: eliminar_cuenta]
+in APPPATH\Controllers\c_usuarios.php on line 115.
+ 1 APPPATH\Controllers\c_usuarios.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 16:36:50 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: eliminar_cuenta]
+in APPPATH\Controllers\c_usuarios.php on line 115.
+ 1 APPPATH\Controllers\c_usuarios.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 16:37:44 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: eliminar_cuenta]
+in APPPATH\Controllers\c_usuarios.php on line 115.
+ 1 APPPATH\Controllers\c_usuarios.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 16:37:49 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: eliminar_cuenta]
+in APPPATH\Controllers\c_usuarios.php on line 115.
+ 1 APPPATH\Controllers\c_usuarios.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 16:40:34 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: eliminar_cuenta]
+in APPPATH\Controllers\c_usuarios.php on line 115.
+ 1 APPPATH\Controllers\c_usuarios.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 16:41:29 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: eliminar_cuenta]
+in APPPATH\Controllers\c_usuarios.php on line 115.
+ 1 APPPATH\Controllers\c_usuarios.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 16:41:59 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: eliminar_cuenta]
+in APPPATH\Controllers\c_usuarios.php on line 115.
+ 1 APPPATH\Controllers\c_usuarios.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+ERROR - 2025-01-14 17:05:35 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\BaseModel.php(1157): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Controllers\c_usuarios.php(115): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+#8 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+#9 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\rewrite.php(44): require_once('C:\\Users\\mlill\\...')
+#14 {main}
+CRITICAL - 2025-01-14 17:05:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: eliminar_cuenta]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\c_usuarios.php(115): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 17:05:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\c_usuarios.php(115): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 17:05:35 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\c_usuarios.php(115): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+ERROR - 2025-01-14 17:08:29 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\BaseModel.php(1157): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Controllers\c_usuarios.php(120): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+#8 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+#9 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\rewrite.php(44): require_once('C:\\Users\\mlill\\...')
+#14 {main}
+CRITICAL - 2025-01-14 17:08:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: eliminar_cuenta]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\c_usuarios.php(120): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 17:08:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\c_usuarios.php(120): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 17:08:29 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\c_usuarios.php(120): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+ERROR - 2025-01-14 17:23:43 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\BaseModel.php(1157): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Controllers\c_usuarios.php(117): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+#8 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+#9 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\rewrite.php(44): require_once('C:\\Users\\mlill\\...')
+#14 {main}
+CRITICAL - 2025-01-14 17:23:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: eliminar_cuenta]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\c_usuarios.php(117): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 17:23:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\c_usuarios.php(117): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 17:23:43 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\c_usuarios.php(117): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+ERROR - 2025-01-14 18:08:50 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\BaseModel.php(1157): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Controllers\c_usuarios.php(118): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+#8 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+#9 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\rewrite.php(44): require_once('C:\\Users\\mlill\\...')
+#14 {main}
+CRITICAL - 2025-01-14 18:08:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: eliminar_cuenta]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\c_usuarios.php(118): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 18:08:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\c_usuarios.php(118): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 18:08:50 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `usuarios`
+WHERE `id` IN (\'jonatan@hotmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `usuarios`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1157): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\c_usuarios.php(118): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->eliminar_cuenta()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 20:04:39 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: perfil]
+in APPPATH\Controllers\c_usuarios.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\c_usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 20:04:40 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Controllers\c_usuarios.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\c_usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 20:04:41 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: registro]
+in APPPATH\Controllers\c_usuarios.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\c_usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 20:04:43 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Controllers\c_usuarios.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\c_usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 20:04:43 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Controllers\c_usuarios.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\c_usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 20:04:44 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Controllers\c_usuarios.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\c_usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 20:04:46 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Controllers\c_usuarios.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\c_usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+ERROR - 2025-01-14 21:00:23 --> mysqli_sql_exception: Unknown column 'usuarios.id' in 'where clause' in C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\BaseModel.php(1027): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Model.php(863): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Models\m_usuarios.php(22): CodeIgniter\Model->update(Array, Array)
+#8 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\app\Controllers\c_usuarios.php(136): App\Models\m_usuarios->actualizarUsuario(NULL, Array)
+#9 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(933): App\Controllers\c_usuarios->actualizar_perfil()
+#10 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+#11 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\mlill\Desktop\xampp\htdocs\PruebaUtal\system\rewrite.php(44): require_once('C:\\Users\\mlill\\...')
+#16 {main}
+CRITICAL - 2025-01-14 21:00:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'usuarios.id' in 'where clause'
+[Method: POST, Route: actualizar_perfil]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `correo` = :correo:, `contraseña` = :contraseña:
+WHERE `usuarios`.`id` IN :usuarios.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1027): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Models\m_usuarios.php(22): CodeIgniter\Model->update([...], [...])
+ 6 APPPATH\Controllers\c_usuarios.php(136): App\Models\m_usuarios->actualizarUsuario(null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->actualizar_perfil()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 21:00:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'usuarios.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'jonatantan\', `correo` = \'jonatantan@hotmail.com\', `contraseña` = \'$2y$10$dtip2fyCpQy2d4/EMcPk.uEQH4eZBZ5rEuxMduI.iczDi3tpnqFvW\'
+WHERE `usuarios`.`id` IN (NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'jonatantan\', `correo` = \'jonatantan@hotmail.com\', `contraseña` = \'$2y$10$dtip2fyCpQy2d4/EMcPk.uEQH4eZBZ5rEuxMduI.iczDi3tpnqFvW\'
+WHERE `usuarios`.`id` IN (NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `correo` = :correo:, `contraseña` = :contraseña:
+WHERE `usuarios`.`id` IN :usuarios.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1027): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Models\m_usuarios.php(22): CodeIgniter\Model->update([...], [...])
+ 8 APPPATH\Controllers\c_usuarios.php(136): App\Models\m_usuarios->actualizarUsuario(null, [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->actualizar_perfil()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 21:00:23 --> [Caused by] mysqli_sql_exception: Unknown column 'usuarios.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `usuarios` SET `nombre` = \'jonatantan\', `correo` = \'jonatantan@hotmail.com\', `contraseña` = \'$2y$10$dtip2fyCpQy2d4/EMcPk.uEQH4eZBZ5rEuxMduI.iczDi3tpnqFvW\'
+WHERE `usuarios`.`id` IN (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'jonatantan\', `correo` = \'jonatantan@hotmail.com\', `contraseña` = \'$2y$10$dtip2fyCpQy2d4/EMcPk.uEQH4eZBZ5rEuxMduI.iczDi3tpnqFvW\'
+WHERE `usuarios`.`id` IN (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'jonatantan\', `correo` = \'jonatantan@hotmail.com\', `contraseña` = \'$2y$10$dtip2fyCpQy2d4/EMcPk.uEQH4eZBZ5rEuxMduI.iczDi3tpnqFvW\'
+WHERE `usuarios`.`id` IN (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `correo` = :correo:, `contraseña` = :contraseña:
+WHERE `usuarios`.`id` IN :usuarios.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1027): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Models\m_usuarios.php(22): CodeIgniter\Model->update([...], [...])
+ 9 APPPATH\Controllers\c_usuarios.php(136): App\Models\m_usuarios->actualizarUsuario(null, [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->actualizar_perfil()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 21:05:59 --> ErrorException: Undefined property: App\Controllers\c_usuarios::$m_usuarios
+[Method: POST, Route: actualizar_perfil]
+in APPPATH\Controllers\c_usuarios.php on line 117.
+ 1 APPPATH\Controllers\c_usuarios.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_usuarios::$m_usuarios', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->actualizar_perfil()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 22:22:30 --> ErrorException: Undefined array key "rol"
+[Method: GET, Route: tabla]
+in APPPATH\Controllers\c_usuarios.php on line 68.
+ 1 APPPATH\Controllers\c_usuarios.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rol"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 22:30:41 --> ErrorException: Undefined array key "rol"
+[Method: GET, Route: tabla]
+in APPPATH\Views\v_usuarios\tabla.php on line 26.
+ 1 APPPATH\Views\v_usuarios\tabla.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rol"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/tabla', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(74): view('v_usuarios/tabla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 22:52:31 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: tabla]
+in APPPATH\Views\v_usuarios\tabla.php on line 24.
+ 1 APPPATH\Views\v_usuarios\tabla.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/tabla', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(74): view('v_usuarios/tabla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 22:52:32 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: tabla]
+in APPPATH\Views\v_usuarios\tabla.php on line 24.
+ 1 APPPATH\Views\v_usuarios\tabla.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/tabla', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(74): view('v_usuarios/tabla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 22:54:15 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: tabla]
+in APPPATH\Views\v_usuarios\tabla.php on line 24.
+ 1 APPPATH\Views\v_usuarios\tabla.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/tabla', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(74): view('v_usuarios/tabla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 22:54:16 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: tabla]
+in APPPATH\Views\v_usuarios\tabla.php on line 24.
+ 1 APPPATH\Views\v_usuarios\tabla.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/tabla', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(74): view('v_usuarios/tabla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 22:55:42 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: tabla]
+in APPPATH\Views\v_usuarios\tabla.php on line 24.
+ 1 APPPATH\Views\v_usuarios\tabla.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Views\\v_usuarios\\tabla.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_usuarios/tabla', [], true)
+ 5 APPPATH\Controllers\c_usuarios.php(74): view('v_usuarios/tabla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 23:14:45 --> ErrorException: Undefined property: App\Controllers\c_usuarios::$m_usuarios
+[Method: GET, Route: tabla]
+in APPPATH\Controllers\c_usuarios.php on line 67.
+ 1 APPPATH\Controllers\c_usuarios.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_usuarios::$m_usuarios', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 23:14:46 --> ErrorException: Undefined property: App\Controllers\c_usuarios::$m_usuarios
+[Method: GET, Route: tabla]
+in APPPATH\Controllers\c_usuarios.php on line 67.
+ 1 APPPATH\Controllers\c_usuarios.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_usuarios::$m_usuarios', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 23:14:56 --> ErrorException: Undefined property: App\Controllers\c_usuarios::$m_usuarios
+[Method: GET, Route: tabla]
+in APPPATH\Controllers\c_usuarios.php on line 67.
+ 1 APPPATH\Controllers\c_usuarios.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_usuarios::$m_usuarios', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 23:14:57 --> ErrorException: Undefined property: App\Controllers\c_usuarios::$m_usuarios
+[Method: GET, Route: tabla]
+in APPPATH\Controllers\c_usuarios.php on line 67.
+ 1 APPPATH\Controllers\c_usuarios.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_usuarios::$m_usuarios', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 23:15:08 --> ErrorException: Undefined property: App\Controllers\c_usuarios::$m_usuarios
+[Method: GET, Route: tabla]
+in APPPATH\Controllers\c_usuarios.php on line 67.
+ 1 APPPATH\Controllers\c_usuarios.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_usuarios::$m_usuarios', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 23:15:09 --> ErrorException: Undefined property: App\Controllers\c_usuarios::$m_usuarios
+[Method: GET, Route: tabla]
+in APPPATH\Controllers\c_usuarios.php on line 67.
+ 1 APPPATH\Controllers\c_usuarios.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_usuarios::$m_usuarios', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 23:15:24 --> ErrorException: Undefined property: App\Controllers\c_usuarios::$m_usuarios
+[Method: GET, Route: tabla]
+in APPPATH\Controllers\c_usuarios.php on line 67.
+ 1 APPPATH\Controllers\c_usuarios.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_usuarios::$m_usuarios', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
+CRITICAL - 2025-01-14 23:15:25 --> ErrorException: Undefined property: App\Controllers\c_usuarios::$m_usuarios
+[Method: GET, Route: tabla]
+in APPPATH\Controllers\c_usuarios.php on line 67.
+ 1 APPPATH\Controllers\c_usuarios.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_usuarios::$m_usuarios', 'C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\app\\Controllers\\c_usuarios.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\c_usuarios->tabla()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\mlill\\Desktop\\xampp\\htdocs\\PruebaUtal\\public\\index.php')
