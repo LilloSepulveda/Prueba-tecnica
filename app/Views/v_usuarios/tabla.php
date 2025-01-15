@@ -13,12 +13,12 @@
         }
 
         .logo-container img {
-            height: 120px; /* Aumenta el tamaño del logo */
+            height: 120px;
         }
     </style>
 </head>
 <body>
-    <!-- Contenedor para el logo -->
+
     <div class="logo-container">
         <a href="http://localhost:8080">
             <img src="/images/logo-utalca.png" alt="Logo Universidad de Talca">
