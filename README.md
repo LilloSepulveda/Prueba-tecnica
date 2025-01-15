@@ -1,37 +1,34 @@
-Prueba-tecnica
+**Prueba técnica**
 
-Recursos necesarios para su funcionanmiento
+**Recursos necesarios para su funcionamiento**
+- CodeIgniter 4
+- XAMPP v3.3.0
+- DBeaver 23.3.2
 
--Codeigniter 4
+**Pasos para ejecutar el programa**
+1. Descargar los recursos necesarios.
+2. Mover el proyecto a la carpeta `htdocs` de XAMPP.
+3. Abrir XAMPP e iniciar Apache y MySQL.
+4. Crear una nueva base de datos MySQL en DBeaver y ejecutar el script que se encuentra al final de este archivo.
+5. Abrir una terminal y navegar hacia la carpeta del proyecto.
+6. Ejecutar el comando `php spark serve` para iniciar el servidor.
+7. En el navegador, ir a la URL local `http://localhost:8080/`.
 
--Xampp v3.3.0
+**Información adicional**
+- Las URLs utilizadas en este proyecto son:  
+  - `http://localhost:8080/`
+  - `http://localhost:8080/registro`
+  - `http://localhost:8080/perfil`
+  - `http://localhost:8080/tabla`
+- Se creó un usuario normal y un administrador mediante el script. Las credenciales son:  
+  - **Administrador**:  
+    - Correo: `admin@utal.cl`  
+    - Contraseña: `admin123`  
+  - **Usuario normal**:  
+    - Correo: `usuario@utal.cl`  
+    - Contraseña: `user123`
 
--Dbeaver 23.3.2
-
-Pasos para poder ejecutar el programa
-
--Descargar los recursos necesarios
-
--mover el proyecto a la carpeta htdocs de xampp
-
--abrir xampp y iniciar apache y mysql
-
--crear una nueva base de datos mysql en dbeaver y ejecutar el script que se encuentra en la parte final de este readme
-
--abrir una terminal y moverse hacia el proyecto
-
--ejecutar la instruccion php spark serve para iniciar el servidor 
-
--en el navegador ir a la url local http://localhost:8080/
-
-Información adicional
-
--Las urls utilizadas en este proyecto son http://localhost:8080/, http://localhost:8080//registro, http://localhost:8080/perfil, http://localhost:8080/tabla
-
--se realizo una creacion de usuarios mediante el script, se creo un usuario normal y administrador, las credenciales de esos perfiles son administrador: admin@utal.cl contraseña: admin123 usuario: usuario@utal.cl contraseña: user123
-
-
-Script para base de datos.
+**Script para base de datos**
 
 CREATE DATABASE IF NOT EXISTS gestion_usuarios
     DEFAULT CHARACTER SET utf8mb4
