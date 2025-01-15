@@ -1,21 +1,33 @@
 Prueba-tecnica
 
 Recursos necesarios para su funcionanmiento
+
 -Codeigniter 4
+
 -Xampp v3.3.0
+
 -Dbeaver 23.3.2
 
 Pasos para poder ejecutar el programa
+
 -Descargar los recursos necesarios
+
 -mover el proyecto a la carpeta htdocs de xampp
+
 -abrir xampp y iniciar apache y mysql
+
 -crear una nueva base de datos mysql en dbeaver y ejecutar el script que se encuentra en la parte final de este readme
+
 -abrir una terminal y moverse hacia el proyecto
+
 -ejecutar la instruccion php spark serve para iniciar el servidor 
+
 -en el navegador ir a la url local http://localhost:8080/
 
 Información adicional
+
 -Las urls utilizadas en este proyecto son http://localhost:8080/, http://localhost:8080//registro, http://localhost:8080/perfil, http://localhost:8080/tabla
+
 -se realizo una creacion de usuarios mediante el script, se creo un usuario normal y administrador, las credenciales de esos perfiles son administrador: admin@utal.cl contraseña: admin123 usuario: usuario@utal.cl contraseña: user123
 
 
