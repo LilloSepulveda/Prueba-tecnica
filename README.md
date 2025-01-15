@@ -1,60 +1,53 @@
-# CodeIgniter 4 Framework
+Prueba-tecnica
 
-## What is CodeIgniter?
+Recursos necesarios para su funcionanmiento
+-Codeigniter 4
+-Xampp v3.3.0
+-Dbeaver 23.3.2
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+Pasos para poder ejecutar el programa
+-Descargar los recursos necesarios
+-mover el proyecto a la carpeta htdocs de xampp
+-abrir xampp y iniciar apache y mysql
+-crear una nueva base de datos mysql en dbeaver y ejecutar el script que se encuentra en la parte final de este readme
+-abrir una terminal y moverse hacia el proyecto
+-ejecutar la instruccion php spark serve para iniciar el servidor 
+-en el navegador ir a la url local http://localhost:8080/
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Información adicional
+-Las urls utilizadas en este proyecto son http://localhost:8080/, http://localhost:8080//registro, http://localhost:8080/perfil, http://localhost:8080/tabla
+-se realizo una creacion de usuarios mediante el script, se creo un usuario normal y administrador, las credenciales de esos perfiles son administrador: admin@utal.cl contraseña: admin123 usuario: usuario@utal.cl contraseña: user123
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+Script para base de datos.
 
-## Important Change with index.php
+CREATE DATABASE IF NOT EXISTS gestion_usuarios
+    DEFAULT CHARACTER SET utf8mb4
+    DEFAULT COLLATE utf8mb4_general_ci;
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+USE gestion_usuarios;
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+CREATE TABLE IF NOT EXISTS usuarios (
+    id_usuario INT AUTO_INCREMENT NOT NULL,
+    nombre VARCHAR(100) NOT NULL,
+    correo VARCHAR(100) NOT NULL,
+    contraseña VARCHAR(255) NOT NULL,
+    rol INT NOT NULL DEFAULT 0,
+    PRIMARY KEY (id_usuario),
+    CONSTRAINT correo_unique UNIQUE (correo)
+)
+ENGINE=InnoDB
+DEFAULT CHARSET=utf8mb4
+COLLATE=utf8mb4_general_ci;
 
-**Please** read the user guide for a better explanation of how CI4 works!
+INSERT INTO usuarios (nombre, correo, contraseña, rol)
+SELECT 'Administrador', 'admin@utal.cl', 'admin123', 1
+WHERE NOT EXISTS (
+    SELECT 1 FROM usuarios WHERE correo = 'admin@utal.cl'
+);
 
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+INSERT INTO usuarios (nombre, correo, contraseña, rol)
+SELECT 'Usuario Normal', 'usuario@utal.cl', 'user123', 0
+WHERE NOT EXISTS (
+    SELECT 1 FROM usuarios WHERE correo = 'usuario@utal.cl'
+);
