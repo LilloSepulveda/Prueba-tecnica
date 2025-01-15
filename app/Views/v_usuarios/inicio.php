@@ -69,16 +69,33 @@
             border-radius: 4px;
         }
         .alert-success {
-            background-color:rgb(40, 46, 237);
+            background-color: rgb(40, 46, 237);
             color: white;
         }
         .alert-danger {
             background-color: #f44336;
             color: white;
         }
+        /* Estilos para el logo */
+        .logo-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .logo-container img {
+            height: 120px; /* Tamaño del logo */
+        }
     </style>
 </head>
 <body>
+
+    <!-- Contenedor para el logo -->
+    <div class="logo-container">
+        <a href="http://localhost:8080">
+            <img src="/images/logo-utalca.png" alt="Logo Universidad de Talca">
+        </a>
+    </div>
 
     <div class="login-container">
         <h1>Iniciar Sesión</h1>
@@ -94,6 +111,7 @@
                 <?= session()->getFlashdata('error'); ?>
             </div>
         <?php endif; ?>
+
         <form action="/validar_ingreso" method="POST">
             <div class="form-group">
                 <label for="correo">Correo Electrónico:</label>

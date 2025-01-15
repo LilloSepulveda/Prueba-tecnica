@@ -26,3 +26,5 @@ $routes->post('/eliminar_cuenta', 'c_usuarios::eliminar_cuenta');
 $routes->get('/tabla', 'c_usuarios::tabla');
 
 $routes->post('/actualizar', 'c_usuarios::actualizar');
+
+$routes->post('/eliminar_tabla', 'c_usuarios::eliminar_tabla');

@@ -214,7 +214,6 @@ class c_usuarios extends Controller
         return redirect()->to('/registro');
     }
 
-    // Instanciar el modelo
     $modelo = new m_usuarios();
 
     // Eliminar el usuario de la base de datos usando el correo
@@ -224,6 +223,22 @@ class c_usuarios extends Controller
 
     return redirect()->to('/');
 }
+
+public function eliminar_tabla()
+{
+    // Obtener el correo del usuario a eliminar desde el formulario
+    $correo = $this->request->getPost('correo');
+
+    $modelo = new m_usuarios();
+
+    // Eliminar el usuario de la base de datos usando el correo
+    if ($modelo->where('correo', $correo)->delete()) {
+        return redirect()->to('/tabla')->with('success', 'Usuario eliminado correctamente.');
+    } else {
+        return redirect()->to('/tabla')->with('error', 'No se pudo eliminar el usuario. Inténtalo nuevamente.');
+    }
+}
+
 
 
 }

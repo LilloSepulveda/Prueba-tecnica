@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1736963774;_ci_previous_url|s:32:"http://localhost:8080/index.php/";usuario|a:5:{s:10:"id_usuario";s:1:"1";s:6:"nombre";s:13:"Administrador";s:6:"correo";s:13:"admin@utal.cl";s:11:"contraseña";s:8:"admin123";s:3:"rol";s:1:"1";}error|s:33:"Correo o contraseña incorrectos.";__ci_vars|a:1:{s:5:"error";s:3:"old";}

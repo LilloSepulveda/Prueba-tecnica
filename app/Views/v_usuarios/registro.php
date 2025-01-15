@@ -63,9 +63,26 @@
             font-size: 14px;
             margin-bottom: 10px;
         }
+        /* Estilos para el logo */
+        .logo-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .logo-container img {
+            height: 120px; /* Tamaño del logo */
+        }
     </style>
 </head>
 <body>
+
+    <!-- Contenedor para el logo -->
+    <div class="logo-container">
+        <a href="http://localhost:8080">
+            <img src="/images/logo-utalca.png" alt="Logo Universidad de Talca">
+        </a>
+    </div>
 
     <div class="form-container">
         <h1>Registro</h1>

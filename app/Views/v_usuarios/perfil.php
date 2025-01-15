@@ -91,9 +91,27 @@
         .actions a:hover {
             text-decoration: underline;
         }
+        /* Estilos para el logo */
+        .logo-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .logo-container img {
+            height: 120px; /* Tamaño del logo */
+        }
     </style>
 </head>
 <body>
+
+    <!-- Contenedor para el logo -->
+    <div class="logo-container">
+        <a href="http://localhost:8080">
+            <img src="/images/logo-utalca.png" alt="Logo Universidad de Talca">
+        </a>
+    </div>
+
     <div class="profile-container">
         <h1>Perfil de <?= $usuario['nombre']; ?></h1>
         <?php if (session()->getFlashdata('success')): ?>
@@ -127,12 +145,11 @@
             <p><strong>Nombre:</strong> <?= $usuario['nombre']; ?></p>
         </div>
         <div class="actions">
-    <form action="/eliminar_cuenta" method="POST" onsubmit="return confirm('¿Estás seguro de que deseas eliminar tu cuenta?');">
-        <button type="submit">Eliminar Cuenta</button>
-    </form>
-</div>
+            <form action="/eliminar_cuenta" method="POST" onsubmit="return confirm('¿Estás seguro de que deseas eliminar tu cuenta?');">
+                <button type="submit">Eliminar Cuenta</button>
+            </form>
+        </div>
     </div>
 
 </body>
 </html>
-
